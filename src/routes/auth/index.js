@@ -1,8 +1,7 @@
 const {Router} = require("express");
 
-const login = require("./blogs");
-const signup = require("./comments");
-const logout = require("./comments");
+const { login, signup, logout } = require("../../controllers/auth");
+
 
 const router = Router();
 

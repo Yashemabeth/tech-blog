@@ -1,13 +1,13 @@
-const { Router } = require("express");
+const express = require ("express");
 
-const api = require("./api");
-const auth = require("./auth");
-const views = require("./views");
+const PROT = process.env.PORT || 4000;
 
-const router = Router();
+const app = express();
 
-router.use("/api", api);
-router.use("/auth", auth);
-router.use("/", views);
+const route = require("./routes");
 
-module.exports = router;
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+app.use(routes);
+
+app.listen(PORT, () => console.Console.log(`Navigate to https://localhost:${PORT}`)); 
