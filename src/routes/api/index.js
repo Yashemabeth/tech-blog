@@ -1,7 +1,8 @@
-const {Router} = require("express");
+const { Router } = require("express");
 
 const blogs = require("./blogs");
-const comments = require("./comments", comments);
+const comments = require("./comments");
+
 const router = Router();
 
 router.use("/blogs", blogs);
