@@ -22,26 +22,31 @@ SO THAT I can publish articles, blog posts, and my thoughts and opinions
 
 ## Technologies Used
 
--
+- node
 
 ## Screenshots
 
 Homepage
 
-<img src="">
+<img src="./public/assets/images/homepage.png">
 
-Notes Page
+Login Page
 
-<img src="">
+<img src="./public/assets/images/loginpage.png">
 
-Creating Notes
+User Dashboard
 
-<img src="">
+<img src="./public/assets/images/userdashbrd.png">
 
-Saved Notes
+Create Blog
 
-<img src="">
+<img src="./public/assets/images/createblog.png">
 
-Delete Notes
+Edit Blog
 
-<img src="">
+<img src="./public/assets/images/editblog.png">
+<img src="./public/assets/images/deleteandeditblog.png">
+
+Delete Blog
+
+<img src="./public/assets/images/delete.png">
